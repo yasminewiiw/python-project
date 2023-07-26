@@ -1,4 +1,5 @@
-image: localhost:5000/sample-ci-python:3.8
+image: python:3.9
+
 
 before_script:
     - pip install -r requirements.txt
